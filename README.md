@@ -14,14 +14,14 @@ In this competition, I achieved:
 
 The official evaluation metric of this competition is **MAPE (Mean Absolute Percentage Error)**, defined as:
 
-\\[
+$$
 \mathrm{MAPE} = \frac{100}{N} \sum_{i=1}^{N} \left| \frac{y_i - \hat{y}_i}{y_i} \right|
-\\]
+$$
 
 where:
-- \\( y_i \\) is the true price of car \\( i \\),
-- \\( \hat{y}_i \\) is the predicted price of car \\( i \\),
-- \\( N \\) is the total number of samples.
+- \( y_i \) is the true price of car \( i \),
+- \( \hat{y}_i \) is the predicted price of car \( i \),
+- \( N \) is the total number of samples.
 
 Lower MAPE means better performance, i.e., predictions are closer (in percentage terms) to the true used car prices.
 
